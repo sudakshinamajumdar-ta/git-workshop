@@ -1,5 +1,3 @@
-# scripts.py
-
 from simple_functions import double_number, square_number
 
 a = 5

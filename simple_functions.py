@@ -1,6 +1,4 @@
-# simple_functions.py
-
-DEBUG = True  # Set to False in production
+DEBUG = True
 
 def double_number(a):
     if DEBUG:
