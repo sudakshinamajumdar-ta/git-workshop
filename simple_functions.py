@@ -1,7 +1,19 @@
-# Custom python functions
+# simple_functions.py
+
+DEBUG = True  # Set to False in production
 
 def double_number(a):
-    return a+a
+    if DEBUG:
+        print(f"[DEBUG] Inside double_number(): input = {a}")
+    result = a + a
+    if DEBUG:
+        print(f"[DEBUG] Inside double_number(): result = {result}")
+    return result
 
 def square_number(a):
-    return a*a
+    if DEBUG:
+        print(f"[DEBUG] Inside square_number(): input = {a}")
+    result = a * a
+    if DEBUG:
+        print(f"[DEBUG] Inside square_number(): result = {result}")
+    return result
